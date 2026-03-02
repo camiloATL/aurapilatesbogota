@@ -34,3 +34,12 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Paleta de Colores
+
+Gris oscuro #57515B slate-600 gray-600 slate-700
+Gris claro #BFB7BF zinc-400 gray-300
+Amarillo claro #F3CE83 amber-300 amber-400
+Beige #F0CFAC orange-200 amber-200
+cafe claro #BD8D7E rose-300 orange-300
+

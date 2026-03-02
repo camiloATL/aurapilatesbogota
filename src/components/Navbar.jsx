@@ -49,7 +49,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur border-b border-gray-400">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur border-b border-amber-600">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <Link href="/home#home" className="flex items-center gap-3">
@@ -76,8 +76,8 @@ export default function Navbar() {
                   "px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 border",
                   "grayscale hover:grayscale-0",
                   isActive
-                    ? "bg-gray-700 text-white border-gray-700 grayscale-0"
-                    : "bg-white text-gray-600 border-gray-400 hover:bg-gray-200 hover:border-gray-700",
+                    ? "bg-zinc-500 text-white border-gray-700 grayscale-0"
+                    : "bg-white text-gray-600 border-gray-400 hover:bg-zinc-200 hover:border-gray-700",
                 ].join(" ")}
               >
                 {link.name}
@@ -88,7 +88,7 @@ export default function Navbar() {
           {/* CTA */}
           <Link
             href="/home#contacto"
-            className="ml-2 px-4 py-2 rounded-full text-sm font-semibold bg-[#F2A88D] text-[#8C402E] border border-[#F2A88D] hover:bg-[#F2A88D]/90 transition"
+            className="ml-2 px-4 py-2 rounded-full text-sm font-semibold bg-[#F0CFAC] text-[#8C402E] border border-[#F2A88D] hover:bg-[#F2A88D]/90 transition"
           >
             Cotizar
           </Link>
@@ -122,8 +122,8 @@ export default function Navbar() {
                     "w-full px-4 py-3 rounded-2xl text-sm font-medium transition border",
                     "grayscale hover:grayscale-0",
                     isActive
-                      ? "bg-gray-700 text-white border-gray-700 grayscale-0"
-                      : "bg-white text-gray-600 border-gray-400 hover:bg-gray-200 hover:border-gray-700",
+                      ? "bg-zinc-500 text-white border-gray-700 grayscale-0"
+                      : "bg-white text-gray-600 border-gray-400 hover:bg-zinc-200 hover:border-gray-700",
                   ].join(" ")}
                 >
                   {link.name}
